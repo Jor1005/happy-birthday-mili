@@ -139,7 +139,6 @@ export default function Page() {
             {CONFIG.cosas.map((c, i) => (
               <Reveal key={c.titulo} delay={i * 0.1}>
                 <div className="h-full rounded-3xl bg-[#D7EBDD] p-8 text-center transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-                  <div className="text-5xl">{c.emoji}</div>
                   <h3 className={`${titulo.className} mt-4 text-2xl font-semibold text-[#14532D]`}>{c.titulo}</h3>
                   <p className="mt-2 text-[#1c3a2a]/75">{c.texto}</p>
                 </div>
